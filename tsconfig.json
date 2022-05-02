@@ -19,7 +19,6 @@
     "skipLibCheck": true,
     "removeComments": true,
     "allowJs": true,
-    "sourceMap": true,
     "strict": true,
     "resolveJsonModule": true
   },
