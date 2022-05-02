@@ -11,7 +11,9 @@
     "build": "tsc -b",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "now-build": "build-storybook -c .storybook -o public",
-    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "npm run build",
+    "prepublish": "npm run build"
   },
   "files": [
     "LICENSE",
