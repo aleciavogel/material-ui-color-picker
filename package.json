@@ -10,7 +10,6 @@
     "lint-fix": "npm run lint -- --fix",
     "build": "tsc -b",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "prepare": "npm run build",
     "now-build": "build-storybook -c .storybook -o public",
     "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
